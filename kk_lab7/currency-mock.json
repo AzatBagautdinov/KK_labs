@@ -1,0 +1,50 @@
+{
+  "port": 4545,
+  "protocol": "http",
+  "stubs": [
+    {
+      "predicates": [
+        {
+          "equals": {
+          "method": "GET",
+            "path": "/exchange",
+            "query": {
+              "currency": "USD"
+            }
+          }
+        }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 200,
+            "headers": { "Content-Type": "application/json" },
+            "body": "{\"currency\": \"USD\", \"rate\": 79.50}"
+          }
+        }
+      ]
+    },
+    {
+      "predicates": [
+        {
+          "equals": {
+            "method": "GET",
+            "path": "/exchange",
+            "query": {
+              "currency": "EUR"
+            }
+          }
+        }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 200,
+            "headers": { "Content-Type": "application/json" },
+            "body": "{\"currency\": \"EUR\", \"rate\": 95.10}"
+          }
+        }
+      ]
+    }
+  ]
+}
