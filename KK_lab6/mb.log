@@ -1,0 +1,5 @@
+{"level":"info","message":"[mb:2525] mountebank v2.9.1 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2025-05-23T13:08:57.151Z"}
+{"level":"info","message":"[mb:2525] PUT /imposters","timestamp":"2025-05-23T13:08:57.210Z"}
+{"level":"info","message":"[http:4545] Open for business...","timestamp":"2025-05-23T13:08:57.219Z"}
+{"level":"info","message":"[mb:2525] GET /images/book.jpg","timestamp":"2025-05-23T13:09:01.760Z"}
+{"level":"error","message":"[mb:2525] ::1:52719 transmission error X=> {\"code\":\"ERR_HTTP_REQUEST_TIMEOUT\"}","timestamp":"2025-05-23T13:10:57.197Z"}
