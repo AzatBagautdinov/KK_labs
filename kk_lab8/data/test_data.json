@@ -1,0 +1,54 @@
+{
+	"invalid_products": [
+		{
+			"alias": "invalid",
+			"title": "",
+			"description": "",
+			"keywords": "",
+			"content": "",
+			"price": -100,
+			"old_price": -100,
+			"category_id": 16,
+			"status": 3,
+			"hit": 2
+		}
+	],
+	"boundary_products": [
+		{
+			"alias": "boundary-min",
+			"title": "Минимальный тест",
+			"description": "",
+			"keywords": "",
+			"content": "min",
+			"price": 0,
+			"old_price": 0,
+			"category_id": 1,
+			"status": 0,
+			"hit": 0
+		},
+		{
+			"alias": "boundary-max",
+			"title": "Максимальный тест",
+			"description": "максимальные",
+			"keywords": "максимум",
+			"content": "max",
+			"price": 999999,
+			"old_price": 999999,
+			"category_id": 15,
+			"status": 1,
+			"hit": 1
+		}
+	],
+	"valid_product": {
+		"alias": "testovyy-tovar",
+		"title": "Тестовый товар 52",
+		"description": "Описание для SEO",
+		"keywords": "тест, товар",
+		"content": "Описание тестового товара",
+		"price": 1000,
+		"old_price": 1200,
+		"category_id": 5,
+		"status": 1,
+		"hit": 1
+	}
+}
